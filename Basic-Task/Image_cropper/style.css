@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color:rgb(228, 233, 201);
+
+}
+.wrapper{
+    width: min(90%,800px);
+    position: absolute;
+    transform: translateX(-50%);
+    top: 8em;
+    left: 50%;
+    background-color: #ffff;
+    padding: 2em 3em;
+    border-radius: 0.5em;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border-radius: 0.5em;
+
+
+}
+
+.head-container{
+    width: min(90%,800px);
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0.2em;
+    left: 50%;
+    background-color: #ffff;
+    padding: 2em 3em;
+    border-radius: 0.5em;
+}
+.container .img-container,.container .preview-containre{
+    width: 100%;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+    display: block;
+    position: relative;
+    background-color: bisque;
+    color: #ffff;
+    font-size:16px ;
+    text-align: center;
+    width: 250px;
+    padding: 16px 0;
+    border-radius: 0.3em;
+    margin: 16px auto;
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+
+}
+.img-container{
+    width: 60%;
+    margin:0 auto
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+input[type="number"]{
+    width: 120px;
+    padding: 16px 5px ;
+    border-radius: 0.3em;
+    border:2px solid #0000;
+}
+button{
+    padding: 1em;
+    border-radius: 0.3em;
+    border: 2px solid #d7d7d7 ;
+    background-color: antiquewhite;
+    color: #025;
+    cursor: pointer
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+.btns button{
+    font-size: 1em;
+}
+.btns a{
+    border: 2px solid antiquewhite ;
+    background-color: antiquewhite;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 0.3em;
+}
+
+.hide{
+    display: none;
+}
+
